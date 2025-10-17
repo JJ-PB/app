@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Contenedor para limitar el ancho en pantallas grandes -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/black"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/imgheader2"
+            android:src="@drawable/cinepoliss"/>
+
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🍿 CINEPOLIS 🍿️️"
+        android:layout_marginTop="80dp"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="@color/brown"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/btnLlamar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Télefono"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnUbicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubicación"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Website"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnatras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atrás"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnreclamo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contactanos"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="1dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+
+
+</LinearLayout>>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

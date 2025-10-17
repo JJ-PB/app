@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="75dp"
+        android:background="@color/black">
+
+        <!-- imagen del inicio !-->
+        <ImageView
+            android:id="@+id/imgheader"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/free"/>
+
+        <!-- texto de caja de texto de usuario !-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/gray"
+            android:text="EMAIL"/>
+
+
+        <!-- entrada de caja de texto del usuario y hint !-->
+        <EditText
+            android:id="@+id/edtEmail"
+            android:textSize="15sp"
+            android:textColorHint="@color/gray"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ejemplo@com"
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress"/>
+
+        <!-- contraseña !-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/gray"
+            android:text="PASSWORD"/>
+
+
+        <!-- entrada de contraseña !-->
+        <EditText
+            android:id="@+id/edtPass"
+            android:textSize="15sp"
+            android:textColorHint="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ingresa tu contraseña"
+            android:textStyle="italic"
+            android:textColor="@color/colorBackground"
+            android:inputType="textPassword"/>
+
+        <!-- boton para ingresar !-->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ingresar"
+            android:layout_margin="33dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+            <!-- Contenedor para limitar el ancho en pantallas grandes -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@color/black"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <!-- Título -->
+                <TextView
+                    android:id="@+id/tvBienvenida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CinemaSurfing 🏄🏻‍♂️"
+                    android:layout_marginTop="30dp"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/brown"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="150dp"
+                    android:id="@+id/imgheader2"
+                    android:src="@drawable/ci"/>
+
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/btnCines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cines 📽️"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/colorBackground"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnAlimentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alimentos 🥤"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/colorBackground"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perfil 👾"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/colorBackground"
+            android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

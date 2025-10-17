@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#1565C0</color> <!-- Azul -->
+    <color name="colorAccent">#FF4081</color> <!-- Rosado -->
+    <color name="yellow">#FFF58A</color>
+    <color name="red">#FFD32F2F</color>
+    <color name="green">#FF32CD32</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="purple">#FF8A2BE2</color>
+    <color name="orange">#FFFFA500</color>
+    <color name="pink">#FFFF00FF</color>
+    <color name="brown">#FF964B</color>
+    <color name="gray">#FF808080</color>
+    <color name="colorText">#000000</color>
+    <color name="colorBackground">#F2F2F2</color>
+</resources>

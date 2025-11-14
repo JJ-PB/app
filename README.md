@@ -11,6 +11,9 @@ Incluye Intents explícitos e implícitos totalmente funcionales.
 3. Home -> Alimentos  
 4. Cines -> Cinepolis / Cinemark / Hoyts / Normandie  
 5. Boton "Atrás" para volver a la Activity anterior.
+6. Boton "Gestión" para acceder a la lista de cines con su ID, Nombre, Dirección, Telefono y sitio Web.
+7. Agregar Cine
+8. Editar Tabla de datos
 
  Intents implícitos
 1. Llamar a un cine 
@@ -20,7 +23,7 @@ Incluye Intents explícitos e implícitos totalmente funcionales.
 5. Compartir texto 
 
  Validaciones
-- Validación de correo y contraseña (correo y contraseña de 6 caracteres).   
+- Validación de correo y contraseña.   
 
 
  Capturas de pantalla de la Interfaz
@@ -65,11 +68,16 @@ Incluye Intents explícitos e implícitos totalmente funcionales.
 
 <img width="222" height="485" alt="Captura de pantalla 2025-10-16 a la(s) 10 53 40 p m" src="https://github.com/user-attachments/assets/ee1207cf-98c9-4874-bbe9-cbe2f7dcf4b6" />
 
-
 <img width="224" height="486" alt="Captura de pantalla 2025-10-16 a la(s) 10 54 09 p m" src="https://github.com/user-attachments/assets/d4bb7d0f-2c85-45f2-85aa-6261e7e53b60" />
 
 
+- Boton nuevo agregado de "Gestión", Tabla con la lista de Cines guardados, Guardar Cine, Editar atributos
 
+
+<img width="285" height="629" alt="Captura de pantalla 2025-11-13 a la(s) 11 13 54 p m" src="https://github.com/user-attachments/assets/f8b5ef2a-1a2c-4535-9feb-24895d96402e" />
+<img width="300" height="654" alt="Captura de pantalla 2025-11-13 a la(s) 11 14 59 p m" src="https://github.com/user-attachments/assets/dbfb62f0-25c0-4760-aa40-94456db8fa4f" />
+<img width="304" height="663" alt="Captura de pantalla 2025-11-13 a la(s) 11 15 09 p m" src="https://github.com/user-attachments/assets/6c9ff021-ce58-4842-a8f3-6bd1daa90c6e" />
+<img width="268" height="622" alt="Captura de pantalla 2025-11-13 a la(s) 11 15 45 p m" src="https://github.com/user-attachments/assets/bd787c97-d569-4484-92e8-316d434e1496" />
 
 
 

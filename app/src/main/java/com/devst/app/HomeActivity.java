@@ -20,6 +20,9 @@ public class HomeActivity extends AppCompatActivity {
     private Button btnCines;
     private Button btnAlimentos;
 
+    private Button btnGestionCines;
+
+
 
 
     @Override
@@ -34,6 +37,7 @@ public class HomeActivity extends AppCompatActivity {
         btnCines = findViewById(R.id.btnCines);
         btnAlimentos = findViewById(R.id.btnAlimentos);
 
+
         // Eventos
         btnCines.setOnClickListener(v ->
                 startActivity(new Intent(this, CinesActivity.class))
@@ -42,6 +46,7 @@ public class HomeActivity extends AppCompatActivity {
         btnAlimentos.setOnClickListener(v ->
                 startActivity(new Intent(this, AlimentosActivity.class))
         );
+
 
 
 

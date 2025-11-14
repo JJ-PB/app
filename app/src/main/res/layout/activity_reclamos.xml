@@ -29,8 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nuestro equipo de Ejecutivo estará encantado de atenderte y de ayudarte a buscar la mejor solución a tus necesidades, sin ningún tipo de compromiso.
-
-Completa el siguiente formulario para contactar con nosotros."
+"
             android:layout_marginTop="50dp"
             android:textColor="@color/white"
             android:layout_marginRight="4sp"

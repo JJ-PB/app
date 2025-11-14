@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+
         <!-- ====== FILA 1 ====== -->
         <LinearLayout
             android:layout_width="match_parent"
@@ -230,13 +231,35 @@
             </LinearLayout>
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btnatras"
-            android:layout_width="wrap_content"
+        <!-- ====== FILA DE BOTONES: ATRÁS + GESTIÓN ====== -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="45dp"
-            android:backgroundTint="@color/white"
-            android:text="@string/atr_s"
-            android:textColor="@color/black" />
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/btnatras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/atr_s"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btonGestionCines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Gestión"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+
     </LinearLayout>
 </ScrollView>
